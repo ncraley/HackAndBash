@@ -1,4 +1,4 @@
-./clean.sh
+./cleanup.sh
 mkdir game
 cd game
 mkdir start

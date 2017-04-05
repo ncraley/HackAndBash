@@ -5,7 +5,7 @@ function ctrl_c() {
 	exit 0
 }
 function handle_exit() {
-	#clear
+	clear
 	echo "CLEANED UP"
 	cd $GAME_DIR
 	./cleanup.sh

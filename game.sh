@@ -47,6 +47,10 @@ while :
 				localHome=$currDir
 				cmd=">LOCK>"
 			fi
+			if [[ $currDir == $localHome/D2 ]]
+			then
+				xrandr --output LVDS1 --rotate inverted
+			fi
 
 		elif [[ $currCommand != "" ]]
 		then
